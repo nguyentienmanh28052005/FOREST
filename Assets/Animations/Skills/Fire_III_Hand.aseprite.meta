@@ -1,0 +1,1034 @@
+fileFormatVersion: 2
+guid: 8f1954ccd793db64dad1543d0153dd5c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 16
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638547769398298301
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Fire_III_Hand_Frame_0
+    originalName: 
+    pivot: {x: 3.25, y: -1.4117649}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 228
+      width: 20
+      height: 17
+    spriteID: 1a203783006ec324584d8b03369585b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 228}
+  - name: Fire_III_Hand_Frame_1
+    originalName: 
+    pivot: {x: 3.9333334, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 86
+      width: 15
+      height: 21
+    spriteID: ec03c441eaaac1841a61513ee546c218
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 86}
+  - name: Fire_III_Hand_Frame_2
+    originalName: 
+    pivot: {x: 1.6060606, y: -1.5833333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 218
+      y: 125
+      width: 33
+      height: 24
+    spriteID: 93865d0c31a925b48950436a1d4561fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 218, y: 125}
+  - name: Fire_III_Hand_Frame_3
+    originalName: 
+    pivot: {x: 0.6153847, y: -3.846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 170
+      width: 65
+      height: 13
+    spriteID: 0d2b26cc01f70ff4dbfdfea0902030c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 170}
+  - name: Fire_III_Hand_Frame_4
+    originalName: 
+    pivot: {x: 0.48051947, y: -1.9545456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 39
+      width: 77
+      height: 22
+    spriteID: 7904754d40afa7f43915421998caaae2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 39}
+  - name: Fire_III_Hand_Frame_5
+    originalName: 
+    pivot: {x: 0.34285715, y: -1.4814814}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 70
+      height: 27
+    spriteID: 07c3bbedf41551b4f990d0c19256d28a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Fire_III_Hand_Frame_6
+    originalName: 
+    pivot: {x: 0.23636366, y: -1.2333333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 193
+      y: 39
+      width: 55
+      height: 30
+    spriteID: b685d6ce7ce77034cb087c0ac563247c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 193, y: 39}
+  - name: Fire_III_Hand_Frame_7
+    originalName: 
+    pivot: {x: 0, y: -1.9130435}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 4
+      width: 40
+      height: 23
+    spriteID: d0af6ae36517a454287b8cc574eec8ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 4}
+  - name: Fire_III_Hand_Frame_8
+    originalName: 
+    pivot: {x: 0, y: -1.4666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 125
+      width: 41
+      height: 30
+    spriteID: 1cf1133ec52839944b8545f13fdc9e58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 125}
+  - name: Fire_III_Hand_Frame_9
+    originalName: 
+    pivot: {x: 0.06250003, y: -1.4516128}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 86
+      width: 48
+      height: 31
+    spriteID: 4ca153cd0df08e245baa00106d43ce3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 86}
+  - name: Fire_III_Hand_Frame_10
+    originalName: 
+    pivot: {x: -0.15909089, y: -0.9230769}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 39
+      width: 44
+      height: 39
+    spriteID: 5c20850b063b1374185f2c670a0a9a25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 39}
+  - name: Fire_III_Hand_Frame_11
+    originalName: 
+    pivot: {x: -0.065573804, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 149
+      y: 125
+      width: 61
+      height: 17
+    spriteID: 9bfc0f2650da9d5409f7daf3711e099f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 149, y: 125}
+  - name: Fire_III_Hand_Frame_12
+    originalName: 
+    pivot: {x: -0.061538495, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 69
+      width: 65
+      height: 8
+    spriteID: 361ac0282a648464c86e65fe8eb0ed58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 69}
+  - name: Fire_III_Hand_Frame_13
+    originalName: 
+    pivot: {x: -0.061538495, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 170
+      width: 65
+      height: 11
+    spriteID: be0d6ea200b0fb341963595f603a2f40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 170}
+  - name: Fire_III_Hand_Frame_14
+    originalName: 
+    pivot: {x: -0.06250003, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 210
+      width: 64
+      height: 10
+    spriteID: 6cf1c8c3cedca51468a96bdbf18cb4ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 210}
+  - name: Fire_III_Hand_Frame_15
+    originalName: 
+    pivot: {x: -0.06250003, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 210
+      width: 64
+      height: 10
+    spriteID: 010e6aac309d6564681cc72271675e98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 210}
+  - name: Fire_III_Hand_Frame_16
+    originalName: 
+    pivot: {x: -0.14285721, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 86
+      width: 56
+      height: 22
+    spriteID: 406eb7a17cbc9174382c4e9c3a7f5f57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 86}
+  - name: Fire_III_Hand_Frame_17
+    originalName: 
+    pivot: {x: -0.081632696, y: -0.06896552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 86
+      width: 49
+      height: 29
+    spriteID: 99eb75626f18b084980cc5ddb0d8df2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 86}
+  - name: Fire_III_Hand_Frame_18
+    originalName: 
+    pivot: {x: 0, y: -0.5135135}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 125
+      width: 39
+      height: 37
+    spriteID: 11f1f0cc24a99a1479ff7ca614bceaa4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 125}
+  - name: Fire_III_Hand_Frame_19
+    originalName: 
+    pivot: {x: 0, y: -1.9130435}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 4
+      width: 40
+      height: 23
+    spriteID: 0724028e6a8fc5f4ba6ad3f00643f4c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 4}
+  - name: Fire_III_Hand_Frame_20
+    originalName: 
+    pivot: {x: 0, y: -1.4666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 125
+      width: 41
+      height: 30
+    spriteID: b81b8dbb3c09b674fbc592954cb8a9b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 125}
+  - name: Fire_III_Hand_Frame_21
+    originalName: 
+    pivot: {x: 0.06250003, y: -1.4516128}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 86
+      width: 48
+      height: 31
+    spriteID: 82d8ce48fd7df2347a5d6f924e0c068e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 86}
+  - name: Fire_III_Hand_Frame_22
+    originalName: 
+    pivot: {x: -0.15909089, y: -0.9230769}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 39
+      width: 44
+      height: 39
+    spriteID: 7085d17008bffee419f1668490906bbb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 39}
+  - name: Fire_III_Hand_Frame_23
+    originalName: 
+    pivot: {x: -0.065573804, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 4
+      width: 61
+      height: 17
+    spriteID: 0d6f111a01c7b99438caec8599a72a48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 4}
+  - name: Fire_III_Hand_Frame_24
+    originalName: 
+    pivot: {x: -0.061538495, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 210
+      width: 65
+      height: 8
+    spriteID: af7af4637cac5c847a20d43ea1ca19c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 210}
+  - name: Fire_III_Hand_Frame_25
+    originalName: 
+    pivot: {x: -0.061538495, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 150
+      y: 170
+      width: 65
+      height: 11
+    spriteID: 483c9165226d0a94bb0bdc12b1c6e68b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 150, y: 170}
+  - name: Fire_III_Hand_Frame_26
+    originalName: 
+    pivot: {x: -0.061538495, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 191
+      width: 65
+      height: 11
+    spriteID: 6e1f4625817379c488fc8c47c4ca23ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 191}
+  - name: Fire_III_Hand_Frame_27
+    originalName: 
+    pivot: {x: -0.061538495, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 191
+      width: 65
+      height: 11
+    spriteID: 7165da7c42b4bc34a82b771847e72d88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 191}
+  - name: Fire_III_Hand_Frame_28
+    originalName: 
+    pivot: {x: -0.061538495, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 150
+      y: 191
+      width: 65
+      height: 11
+    spriteID: 162b7c722c9e6d84d99b65584f8917b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 150, y: 191}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1229945992
+    name: Fire_III_Hand
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Fire_III_Hand_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 24
+        width: 20
+        height: 17
+      spriteId: 1a203783006ec324584d8b03369585b5
+    - name: Fire_III_Hand_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 13
+        y: 28
+        width: 15
+        height: 21
+      spriteId: ec03c441eaaac1841a61513ee546c218
+    - name: Fire_III_Hand_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 38
+        width: 33
+        height: 24
+      spriteId: 93865d0c31a925b48950436a1d4561fc
+    - name: Fire_III_Hand_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 32
+        y: 50
+        width: 65
+        height: 13
+      spriteId: 0d2b26cc01f70ff4dbfdfea0902030c0
+    - name: Fire_III_Hand_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 35
+        y: 43
+        width: 77
+        height: 22
+      spriteId: 7904754d40afa7f43915421998caaae2
+    - name: Fire_III_Hand_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 40
+        width: 70
+        height: 27
+      spriteId: 07c3bbedf41551b4f990d0c19256d28a
+    - name: Fire_III_Hand_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 59
+        y: 37
+        width: 55
+        height: 30
+      spriteId: b685d6ce7ce77034cb087c0ac563247c
+    - name: Fire_III_Hand_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 72
+        y: 44
+        width: 40
+        height: 23
+      spriteId: d0af6ae36517a454287b8cc574eec8ac
+    - name: Fire_III_Hand_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 72
+        y: 44
+        width: 41
+        height: 30
+      spriteId: 1cf1133ec52839944b8545f13fdc9e58
+    - name: Fire_III_Hand_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 69
+        y: 45
+        width: 48
+        height: 31
+      spriteId: 4ca153cd0df08e245baa00106d43ce3b
+    - name: Fire_III_Hand_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 79
+        y: 36
+        width: 44
+        height: 39
+      spriteId: 5c20850b063b1374185f2c670a0a9a25
+    - name: Fire_III_Hand_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 0
+        width: 61
+        height: 17
+      spriteId: 9bfc0f2650da9d5409f7daf3711e099f
+    - name: Fire_III_Hand_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 0
+        width: 65
+        height: 8
+      spriteId: 361ac0282a648464c86e65fe8eb0ed58
+    - name: Fire_III_Hand_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 0
+        width: 65
+        height: 11
+      spriteId: be0d6ea200b0fb341963595f603a2f40
+    - name: Fire_III_Hand_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 0
+        width: 64
+        height: 10
+      spriteId: 6cf1c8c3cedca51468a96bdbf18cb4ed
+    - name: Fire_III_Hand_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 0
+        width: 64
+        height: 10
+      spriteId: 010e6aac309d6564681cc72271675e98
+    - name: Fire_III_Hand_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 80
+        y: 0
+        width: 56
+        height: 22
+      spriteId: 406eb7a17cbc9174382c4e9c3a7f5f57
+    - name: Fire_III_Hand_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 2
+        width: 49
+        height: 29
+      spriteId: 99eb75626f18b084980cc5ddb0d8df2a
+    - name: Fire_III_Hand_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 72
+        y: 19
+        width: 39
+        height: 37
+      spriteId: 11f1f0cc24a99a1479ff7ca614bceaa4
+    - name: Fire_III_Hand_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 72
+        y: 44
+        width: 40
+        height: 23
+      spriteId: 0724028e6a8fc5f4ba6ad3f00643f4c9
+    - name: Fire_III_Hand_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 72
+        y: 44
+        width: 41
+        height: 30
+      spriteId: b81b8dbb3c09b674fbc592954cb8a9b9
+    - name: Fire_III_Hand_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 69
+        y: 45
+        width: 48
+        height: 31
+      spriteId: 82d8ce48fd7df2347a5d6f924e0c068e
+    - name: Fire_III_Hand_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 79
+        y: 36
+        width: 44
+        height: 39
+      spriteId: 7085d17008bffee419f1668490906bbb
+    - name: Fire_III_Hand_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 0
+        width: 61
+        height: 17
+      spriteId: 0d6f111a01c7b99438caec8599a72a48
+    - name: Fire_III_Hand_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 0
+        width: 65
+        height: 8
+      spriteId: af7af4637cac5c847a20d43ea1ca19c4
+    - name: Fire_III_Hand_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 0
+        width: 65
+        height: 11
+      spriteId: 483c9165226d0a94bb0bdc12b1c6e68b
+    - name: Fire_III_Hand_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 0
+        width: 65
+        height: 11
+      spriteId: 6e1f4625817379c488fc8c47c4ca23ae
+    - name: Fire_III_Hand_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 0
+        width: 65
+        height: 11
+      spriteId: 7165da7c42b4bc34a82b771847e72d88
+    - name: Fire_III_Hand_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 0
+        width: 65
+        height: 11
+      spriteId: 162b7c722c9e6d84d99b65584f8917b4
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 144, y: 80}

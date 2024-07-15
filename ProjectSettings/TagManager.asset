@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Map
+  - Enemy
+  - Skill
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - 
+  - 
+  - Skill
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Map
+    uniqueID: 2973325361
+    locked: 0
+  - name: Skill
+    uniqueID: 2976656123
+    locked: 0
+  - name: Canvas
+    uniqueID: 3407990351
+    locked: 0
+  - name: Enemy
+    uniqueID: 2371775727
+    locked: 0
+  - name: Player
+    uniqueID: 447286529
+    locked: 0
+  m_RenderingLayers:
+  - Default

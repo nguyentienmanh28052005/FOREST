@@ -170,7 +170,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Crab_AttackA_FX_0: 1573198192264913389
+      Crab_AttackA_FX_1: 4946159382131993100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

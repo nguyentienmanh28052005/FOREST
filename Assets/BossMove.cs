@@ -31,7 +31,6 @@ public class BossMove : StateMachineBehaviour
         Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
         rb.MovePosition(newPos);
         int Numrd = 2;//Random.Range(1, 4);
-        
         if(Vector2.Distance(player.position, rb.position) <= attackRange)
         {
             if (Numrd == 3)

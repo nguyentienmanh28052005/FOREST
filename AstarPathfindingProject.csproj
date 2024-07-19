@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{11db81e8-fdf3-a763-7fb0-3dd2fc898d35}</ProjectGuid>
+    <ProjectGuid>{3acf6fe6-0cbe-3f28-84aa-5abe0a73baeb}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -82,7 +82,6 @@
     <Compile Include="Assets\AstarPathfindingProject\Core\AI\AIPath.cs" />
     <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\MineBotAI.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Generators\NavMeshGenerator.cs" />
-    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\Example12_Procedural\ProceduralGridMover.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\ArrayPool.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\PointKDTree.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
@@ -99,6 +98,7 @@
     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\GraphModifier.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Core\AstarData.cs" />
     <Compile Include="Assets\AstarPathfindingProject\PackageTools\UniqueComponentAttribute.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Utilities\DynamicGridObstacle.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Behaviors\Patrol.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\WorkItemProcessor.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\NodeLink3.cs" />
@@ -108,6 +108,7 @@
     <Compile Include="Assets\AstarPathfindingProject\Core\Serialization\JsonSerializer.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Core\Serialization\SimpleZipReplacement.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Generators\QuadtreeGraph.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Utilities\ProceduralGridMover.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Modifiers\FunnelModifier.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Core\AI\AILerp.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Core\AstarPath.cs" />
@@ -129,6 +130,7 @@
     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\NodeLink2.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Pathfinders\ABPath.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Modifiers\SimpleSmoothModifier.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\AutoRepathPolicy.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\Int3.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Core\AstarMath.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Core\AI\NavmeshController.cs" />
@@ -146,8 +148,8 @@
     <Compile Include="Assets\AstarPathfindingProject\Utilities\RetainedGizmos.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\GraphUpdateProcessor.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\PathReturnQueue.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\SnapToNode.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Core\PathHandler.cs" />
-    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\DynamicGridObstacle.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Core\Misc\WindowsStoreCompatibility.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Utilities\GraphUpdateUtilities.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Core\GraphUpdateScene.cs" />
@@ -512,41 +514,44 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>D:\unity\6000.0.0f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.UWP.Extensions">
+      <HintPath>D:\unity\6000.0.0f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>D:\unity\Project_2D_CV1(dungeon)\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+      <HintPath>D:\unity\ProjectM1Private\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>D:\unity\Project_2D_CV1(dungeon)\Library\PackageCache\com.unity.collections\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>D:\unity\ProjectM1Private\Library\PackageCache\com.unity.collections\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:\unity\Project_2D_CV1(dungeon)\Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
+      <HintPath>D:\unity\ProjectM1Private\Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>D:\unity\Project_2D_CV1(dungeon)\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+      <HintPath>D:\unity\ProjectM1Private\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>D:\unity\Project_2D_CV1(dungeon)\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>D:\unity\ProjectM1Private\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>D:\unity\Project_2D_CV1(dungeon)\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:\unity\ProjectM1Private\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-      <HintPath>D:\unity\Project_2D_CV1(dungeon)\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+      <HintPath>D:\unity\ProjectM1Private\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>D:\unity\Project_2D_CV1(dungeon)\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <HintPath>D:\unity\ProjectM1Private\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>D:\unity\Project_2D_CV1(dungeon)\Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>D:\unity\ProjectM1Private\Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>D:\unity\Project_2D_CV1(dungeon)\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <HintPath>D:\unity\ProjectM1Private\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
-      <HintPath>D:\unity\Project_2D_CV1(dungeon)\Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
+      <HintPath>D:\unity\ProjectM1Private\Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>D:\unity\Project_2D_CV1(dungeon)\Assets\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+      <HintPath>D:\unity\ProjectM1Private\Assets\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\unity\6000.0.0f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -915,10 +920,10 @@
       <HintPath>D:\unity\6000.0.0f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:\unity\Project_2D_CV1(dungeon)\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>D:\unity\ProjectM1Private\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:\unity\Project_2D_CV1(dungeon)\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>D:\unity\ProjectM1Private\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

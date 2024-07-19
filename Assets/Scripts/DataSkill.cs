@@ -24,7 +24,9 @@ public class DataSkill : MonoBehaviour
 
     public void bulletFire1()
     {
-        GameObject bullet =  Instantiate(this._bulletFire1, _posi.transform.position, _posi.transform.rotation);
+        Vector3 spon = _posi.transform.position;
+        spon.y -= 0.35f;
+        GameObject bullet =  Instantiate(this._bulletFire1, spon, _posi.transform.rotation);
         bullet.gameObject.SetActive(true);
     }
     

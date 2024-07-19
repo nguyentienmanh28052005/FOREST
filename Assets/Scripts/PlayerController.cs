@@ -28,9 +28,9 @@ public class PlayerController : MonoBehaviour
     
     private bool canDash = true;
     private bool isDashing;
-    private float dashingPower = 50f;
-    private float dashingTime = 0.1f;
-    private float dashingCooldown = 0f;
+    public float dashingPower;
+    public float dashingTime;
+    public float dashingCooldown;
     [SerializeField] private TrailRenderer tr;
     
     public Vector2 boxSize;
@@ -104,16 +104,17 @@ public class PlayerController : MonoBehaviour
         //     _skill.skillWater2();
         // }
 
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            _skill.skillWaterBall();
-        }
+        // if (Input.GetKeyDown(KeyCode.H))
+        // {
+        //     _skill.skillWaterBall();
+        // }
 
         if (Input.GetKeyDown(KeyCode.N))
         {
             _skill.BaseSkill();
         }
     }
+    
 
     public bool GetDirection()
     {
@@ -221,6 +222,8 @@ public class PlayerController : MonoBehaviour
     
     private IEnumerator Dash()
     {
+        // _rb.sharedMaterial.friction = 100f;
+        // yield return new WaitForSeconds(1f);
         canDash = false;
         isDashing = true;
         float originalGravity = _rb.gravityScale;
@@ -232,6 +235,7 @@ public class PlayerController : MonoBehaviour
         _rb.gravityScale = originalGravity;
         isDashing = false;
         yield return new WaitForSeconds(dashingCooldown);
+        //_rb.sharedMaterial.friction = 0.01f;
         canDash = true;
 
     }
